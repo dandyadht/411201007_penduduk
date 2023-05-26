@@ -10,7 +10,7 @@
           <button class="btn btn-secondary" type="submit">Cari</button>
       </form>
     </div>
-    
+   
     <!-- TOMBOL TAMBAH DATA -->
     <div class="pb-3">
       <a href='{{url('data_penduduk/create')}}' class="btn btn-primary">+ Input Data Penduduk</a>
@@ -18,7 +18,7 @@
 
     <table class="table table-striped">
         <thead>
-            <tr>
+            <tr> 
                 <th class="col-md-0">No</th>
                 <th class="col-md-1">NIK</th>
                 <th class="col-md-2">Nama</th>
